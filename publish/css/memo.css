@@ -98,7 +98,7 @@
     background-position: center center;
     cursor: pointer;
     background-size: 100px;
-    background-image: url(../img/untitled.png);
+    background-image: url(../img/key.png);
 
 }
 
@@ -110,7 +110,7 @@
 .tile.matched {
     -webkit-transform: rotateY(180deg) scale(0.9, 0.9);
     -moz-transform: rotateY(180deg) scale(0.9, 0.9);
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .back {
