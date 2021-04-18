@@ -114,3 +114,15 @@ html[xmlns] .clearfix {
 * html .clearfix {
     height: 1%;
 }
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #2196F3;
+    color: white;
+    display: inline-block;
+}
+

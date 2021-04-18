@@ -11,6 +11,24 @@
 
 .timer-0 {right: -80px;}
 
+.clock {
+    position: absolute;
+    top: 24px;
+    right: -250px;
+    width: 120px;
+    border-radius: 10px;
+    border-color: #B74803;
+    /* background: #ccd9e2; */
+    /* height: 785px; */
+    padding-top: 6px;
+    border: 2px solid #000;
+    text-align: center;
+    color: #B74803;
+    font-family: HelveticaNeue-UltraLight, Helvetica;
+    font-size: 35px;
+}
+
+
 .sand {
     border-radius:8px;
     text-indent:0;
@@ -125,3 +143,21 @@
 .back.h7 {background-position: -1200px 0;}
 .back.h8 {background-position: -1400px 0;}
 
+
+.btn {
+  border: none;
+  /* background-color: inherit; */
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
