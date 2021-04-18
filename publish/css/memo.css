@@ -10,8 +10,6 @@
 }
 
 .timer-0 {right: -80px;}
-.timer-1 {right: -160px;}
-.timer-2 {right: -240px;}
 
 .sand {
     border-radius:8px;
@@ -127,11 +125,3 @@
 .back.h7 {background-position: -1200px 0;}
 .back.h8 {background-position: -1400px 0;}
 
-.foggy .back.h1 {background-position: 0 -200px;}
-.foggy .back.h2 {background-position: -200px -200px;}
-.foggy .back.h3 {background-position: -400px -200px;}
-.foggy .back.h4 {background-position: -600px -200px;}
-.foggy .back.h5 {background-position: -800px -200px;}
-.foggy .back.h6 {background-position: -1000px -200px;}
-.foggy .back.h7 {background-position: -1200px -200px;}
-.foggy .back.h8 {background-position: -1400px -200px;}
