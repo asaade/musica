@@ -28,34 +28,6 @@
     font-size: 35px;
 }
 
-
-.sand {
-    border-radius:8px;
-    text-indent:0;
-    height:22px;
-    margin: 2px 5px;
-    -webkit-transition: all 1000ms;
-    background: #ccd9e2;
-    box-shadow: none;
-    border: 1px solid #000;
-    opacity: 0.1;
-}
-
-.sand.remaining {
-    opacity: 1;
-    box-shadow:inset 0px 1px 0px 0px #bee2f9;
-    background: -webkit-linear-gradient(top,       #63b8ee 5%, #285185 100%);
-    background:    -moz-linear-gradient(top,       #63b8ee 5%, #285185 100%);
-    border:1px solid #3866a3;
-}
-
-.sand.music {
-    border: 1px solid #000;
-    background: -webkit-linear-gradient(top,       #63ee63 5%, #46cf46 100%);
-    background:    -moz-linear-gradient(top,       #63ee63 5%, #46cf46 100%);
-    opacity: 0.3;
-}
-
 .board {
     border: 10px solid #a49e96;
     border-radius: 10px;

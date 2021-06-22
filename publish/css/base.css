@@ -37,34 +37,34 @@ body.interlude {
     z-index: -1;
 }
 
-#eaten {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    opacity: 0;
-}
+/* #eaten { */
+/*     position: absolute; */
+/*     top: 0; */
+/*     bottom: 0; */
+/*     left: 0; */
+/*     right: 0; */
+/*     z-index: -1; */
+/*     opacity: 0; */
+/* } */
 
 .watermark {
     -webkit-transition: background-color 1000ms;
     -moz-transition: background-color 1000ms;
 }
 
-#eaten img {
-    margin: 200px auto 0;
-    display: block;
-    -webkit-transform: scale(0.1);
-    -moz-transform: scale(0.1);
-    -webkit-transition: all 1500ms cubic-bezier(0.215, 0.610, 0.150, 1.170);
-    -moz-transition: all 1500ms cubic-bezier(0.215, 0.610, 0.150, 1.170);
-}
+/* #eaten img { */
+/*     margin: 200px auto 0; */
+/*     display: block; */
+/*     -webkit-transform: scale(0.1); */
+/*     -moz-transform: scale(0.1); */
+/*     -webkit-transition: all 1500ms cubic-bezier(0.215, 0.610, 0.150, 1.170); */
+/*     -moz-transition: all 1500ms cubic-bezier(0.215, 0.610, 0.150, 1.170); */
+/* } */
 
-#eaten {
-    -webkit-transition: opacity 1000ms;
-    -moz-transition: opacity 1000ms;
-}
+/* #eaten { */
+/*     -webkit-transition: opacity 1000ms; */
+/*     -moz-transition: opacity 1000ms; */
+/* } */
 
 .watermark.flash-red {
     background-color: #CC8D65;
@@ -77,15 +77,15 @@ body.interlude {
     background-color: #CC8D65;
 }
 
-.game-over #eaten {
-    opacity: 1;
-    z-index: 2;
-}
+/* .game-over #eaten { */
+/*     opacity: 1; */
+/*     z-index: 2; */
+/* } */
 
-.game-over #eaten img {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-}
+/* .game-over #eaten img { */
+/*     -webkit-transform: scale(1); */
+/*     -moz-transform: scale(1); */
+/* } */
 
 .game-over #main {
     display: none;
